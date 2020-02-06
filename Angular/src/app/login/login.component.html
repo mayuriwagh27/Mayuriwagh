@@ -1,0 +1,29 @@
+<div class="col-md-4 offset-md-4 mt-5">
+    <form  #loginForm="ngForm" class="form-group" (ngSubmit)='login(loginForm)'>
+        <h4>Login</h4>
+        
+        <div class="alert alert-danger" *ngIf = 'error'>
+            {{error}}
+        </div>
+
+        <input type="email" name="email" placeholder="Enter email..." #email='ngModel' ngModel
+        required minlength="8" class="form-control mb-3">
+        <div *ngIf='email.touched && email'>
+            <p class="alert alert-danger" *ngIf='email.errors.required'>This field is required</p>
+            <p class="alert alert-danger" *ngIf='email.errors.minlength'>Minimum 8 characters required</p>
+            <p class="alert alert-danger" *ngIf='email.errors.email'>Email required</p>
+
+
+        </div>
+        <input type="password" name="password" placeholder="Enter password..."  #password='ngModel' ngModel
+        required minlength="8"  class="form-control">
+        <div *ngIf='password.touched && password'>
+            <p class="alert alert-danger" *ngIf='password.errors.required'>This field is required</p>
+            <p class="alert alert-danger" *ngIf='password.errors.minlength'>Minimum 8 characters required</p> 
+        </div>
+        <br>
+        <button type="submit" class="btn btn-outline-primary float-right">Login</button>
+
+
+    </form>
+</div>

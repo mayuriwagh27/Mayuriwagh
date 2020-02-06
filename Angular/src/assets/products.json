@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Iphone",
+        "image": "https://cdn.pixabay.com/photo/2014/08/05/10/30/iphone-410324__340.jpg",
+        "price":7896
+
+    },
+    {
+        "name": "Macbook",
+        "image": "https://image.shutterstock.com/image-photo/mans-hands-using-laptop-blank-260nw-295381787.jpg",
+        "price": 4562
+
+    },
+    {
+        "name": "Cannon",
+        "image": "https://cdn.pixabay.com/photo/2014/05/22/22/05/photo-351528__340.jpg",
+        "price": 56321
+
+    },
+    {
+        "name": "Boat headset",
+        "image": "https://cdn.pixabay.com/photo/2015/05/31/10/59/smartphone-791076__340.jpg",
+        "price": 1425
+
+    }
+
+]

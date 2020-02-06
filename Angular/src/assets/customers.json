@@ -1,0 +1,33 @@
+[
+    {
+        "name": "Mayuri",
+        "email": "mayuriwagh27@gmail.com",
+        "phone": 123456789
+
+    },
+    {
+        "name": "Pranjali",
+        "email": "yadavpranjali@gmail.com",
+        "phone": 789456123
+
+    },
+    {
+        "name": "Chetana",
+        "email": "chetanawagh@gmail.com",
+        "phone": 369852147
+
+    },
+    {
+        "name": "Rakshita",
+        "email": "rsadanshive@gmail.com",
+        "phone": 562398741
+
+    },
+    {
+        "id": 5035,
+        "name": "Rachana",
+        "email": "wavhalrachana@gmail.com",
+        "phone": 415263897
+
+    }
+]

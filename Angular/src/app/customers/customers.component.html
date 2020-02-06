@@ -1,0 +1,21 @@
+<div class="container mt-4">
+    <table class="table table-bordered table-warning text-dark table-hover">
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>Name</th>
+                <th>Mobile</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let customer of customers index as i">
+                <td>{{i+1}}</td>
+                <th>{{customer.name}}</th>
+                <th>{{customer.email}}</th>
+                <th>{{customer.phone}}</th>
+
+            </tr>
+        </tbody>
+    </table>
+</div>
